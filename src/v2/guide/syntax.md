@@ -150,10 +150,10 @@ Mustache 语法不能作用在 HTML attribute 上，遇到这种情况应该使�
 同样地，你可以使用动态参数为一个动态的事件名绑定处理函数：
 
 ``` html
-<a v-on:[eventName]="doSomething"> ... </a>
+<a v-on:[eventname]="doSomething"> ... </a>
 ```
 
-在这个示例中，当 `eventName` 的值为 `"focus"` 时，`v-on:[eventName]` 将等价于 `v-on:focus`。
+在这个示例中，当 `eventname` 的值为 `"focus"` 时，`v-on:[eventname]` 将等价于 `v-on:focus`。
 
 #### 对动态参数的值的约束
 
